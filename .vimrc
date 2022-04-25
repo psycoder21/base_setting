@@ -57,8 +57,8 @@ filetype plugin indent on    " required
 if has ('termguicolors')
 	set termguicolors
 endif
-set background=dark
-colorscheme everforest
+
+colorscheme onedark
 
 set laststatus=2
 if has("syntax")
