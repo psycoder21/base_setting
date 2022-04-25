@@ -17,6 +17,7 @@ Plugin 'dense-analysis/ale' "??
 Plugin 'vim-python/python-syntax' "vim python syntax
 Plugin 'https://github.com/nvie/vim-flake8' "vim plugin for flake8
 Plugin 'majutsushi/tagbar' "function definition
+Plug 'arcticicestudio/nord-vim' "color theme
 
 " YouCompleteMe must be compiled
 
@@ -58,7 +59,7 @@ if has ('termguicolors')
 	set termguicolors
 endif
 
-colorscheme onedark
+colorscheme nord
 
 set laststatus=2
 if has("syntax")
